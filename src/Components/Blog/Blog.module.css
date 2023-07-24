@@ -1,0 +1,18 @@
+.h1 {
+  letter-spacing: 1px !important;
+}
+
+.hover {
+  width: min(100px, 30dvw);
+}
+
+.hover:hover {
+  color: #000 !important;
+}
+
+.img img {
+  filter: opacity(.5);
+}
+.img:hover img {
+  filter: opacity(1);
+}

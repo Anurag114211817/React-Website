@@ -1,0 +1,29 @@
+.cover{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: calc(100% + 16px);
+    background-image: radial-gradient(circle at bottom right, 
+                                                #000c 0% 40%,  
+                                                #000b 42% 50%,  
+                                                #000a 52% 60%,  
+                                                #0008 62% 70%,  
+                                                #0006 72% 80%,  
+                                                #0004 82% 100%);
+    transition: all 1s;
+}
+.cover:hover{
+    opacity: 1;
+}
+
+.cover ul li {
+    transform: translateY(30px);
+    transition: transform .25s;
+    transition-delay: var(--i);
+}
+
+.cover:hover ul li{
+    transform: translateY(0px);
+}

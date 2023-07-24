@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "org.ouranosrobotics.neer",
+    "sha256_cert_fingerprints":
+    ["44:C7:00:C1:24:53:F3:3C:D9:EF:3B:89:76:DB:EF:00:E5:F4:FC:C8:E5:C5:94:57:82:16:97:64:67:B3:C1:D5"]
+  }
+}]
